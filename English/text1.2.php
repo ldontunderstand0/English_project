@@ -5,7 +5,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
+<title>Text 2</title>
+<link rel="shortcut icon" href="/images/minicon.png">
 <link rel="stylesheet" href="/styles/text.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">
@@ -55,6 +56,21 @@ instead of people having to rewire the machine to go to a different program, the
 <div class="button_prev">
     <button class="blob-btn" onclick="document.location='text1.1.php'">
         previous text
+        <span class="blob-btn__inner">
+        <span class="blob-btn__blobs">
+            <span class="blob-btn__blob"></span>
+            <span class="blob-btn__blob"></span>
+            <span class="blob-btn__blob"></span>
+            <span class="blob-btn__blob"></span>
+        </span>
+        </span>
+    </button>
+    <br/>
+    </div>
+
+    <div class="button_unit">
+    <button class="blob-btn" onclick="document.location='unit1.php'">
+        go to unit
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
             <span class="blob-btn__blob"></span>

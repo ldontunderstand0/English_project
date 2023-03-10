@@ -1,0 +1,23 @@
+body {
+    background: #212121;
+    color: #E8A236;
+}
+.blob-btn {
+    color: #E8A236;
+}
+.blob-btn:before {
+    border: 2px solid #E8A236;
+}
+.blob-btn:hover {
+    color: black;
+}
+.blob-btn__inner {
+    background: black;
+}
+.blob-btn__blob {
+    background: #E8A236;
+}
+.text {
+    color: white;
+    background-color: black;
+}

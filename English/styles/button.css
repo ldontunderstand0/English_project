@@ -11,7 +11,6 @@
   margin-bottom: 30px;
   text-align: center;
   text-transform: uppercase;
-  color: #090DC4;
   font-size: 16px;
   font-weight: bold;
   background-color: transparent;
@@ -30,7 +29,6 @@
   top: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #090DC4;
   border-radius: 30px;
 }
 .blob-btn:after {
@@ -45,7 +43,6 @@
   border-radius: 30px;
 }
 .blob-btn:hover {
-  color: #fff;
   border-radius: 30px;
 }
 .blob-btn:hover:after {
@@ -63,7 +60,6 @@
   width: 100%;
   height: 100%;
   border-radius: 30px;
-  background: #fff;
 }
 .blob-btn__blobs {
   position: relative;
@@ -76,7 +72,6 @@
   top: 2px;
   width: 25%;
   height: 100%;
-  background: #090DC4;
   border-radius: 100%;
   transform: translate3d(0, 150%, 0) scale(1.7);
   transition: transform 0.45s;

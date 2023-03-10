@@ -1,8 +1,6 @@
 body {
-    background: #DFEDF3;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,
     "Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    color: #090DC4;
 }
 
 .main_text {
@@ -19,7 +17,7 @@ body {
     display: flex;
 }
 
-.text {
+.header {
     margin-top: 2.7%;
     margin-left: 3%;
     font-size: 24px;

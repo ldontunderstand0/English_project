@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["theme"]))
+{
+    $_SESSION["theme"] = "light";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +15,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Welcome</title>
+<link rel="shortcut icon" href="/images/minicon.png">
 <link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" type="text/css" href="styles/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
 <link rel="stylesheet" href="/styles/button.css">
+<script type="text/javascript" src="scripts/theme_change.js"></script>
 
 </head>
 <body>
+
+<div class="theme-button" id="theme-button" onclick="ChangeTheme()">Change theme</div>
+
+
 <div class="container">
 <img class="icon" src="images/icon.png"></img>
 <h1 class="main_text">History of the first PCs</h1>

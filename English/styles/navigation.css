@@ -1,4 +1,5 @@
 .icon {
+    cursor: pointer;
     align-items: right;
     width: 5%;
     height: 5%;
@@ -7,6 +8,7 @@
 }
 
 .menu {
+    cursor: pointer;
     width: 3%;
     height: 3%;
     margin-left: 2.5%;

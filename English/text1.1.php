@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["theme"]))
+{
+    $_SESSION["theme"] = "light";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +14,12 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
+<title>Text 1</title>
+<link rel="shortcut icon" href="/images/minicon.png">
 <link rel="stylesheet" href="/styles/text.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">
+<link rel="stylesheet" type="text/css" href="styles/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
 
 </head>
 <body>
@@ -38,7 +49,7 @@
 <div class="btns">
 <div class="button_prev">
     <button class="blob-btn" onclick="document.location='unit1.php'">
-        to unit 1
+        go to unit
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
             <span class="blob-btn__blob"></span>

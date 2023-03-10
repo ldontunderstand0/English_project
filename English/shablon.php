@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title></title>
+<link rel="shortcut icon" href="/images/minicon.png">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">

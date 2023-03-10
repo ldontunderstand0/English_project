@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["theme"]))
+{
+    $_SESSION["theme"] = "light";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +15,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contents</title>
+<link rel="shortcut icon" href="/images/minicon.png">
 <link rel="stylesheet" href="/styles/content.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">
+<link rel="stylesheet" type="text/css" href="styles/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
 
 </head>
 <body>
