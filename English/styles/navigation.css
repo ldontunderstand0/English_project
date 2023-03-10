@@ -1,0 +1,20 @@
+.icon {
+    align-items: right;
+    width: 5%;
+    height: 5%;
+    margin-top: 1.5%;
+    margin-left: 87.5%;
+}
+
+.menu {
+    width: 3%;
+    height: 3%;
+    margin-left: 2.5%;
+    margin-bottom: 1%;
+}
+
+.navigate {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
