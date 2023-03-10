@@ -1,40 +1,22 @@
-var btn = document.getElementById("theme-button");
-var link = document.getElementById("theme-link");
+const lightTheme = "styles/light.css";
+const darkTheme = "styles/dark.css";
 
-btn.addEventListener("click", function () { ChangeTheme(); });
+const link = document.getElementById("theme-link");
+const btn = document.getElementById("theme-button");
+var currTheme = link.getAttribute("href");
 
-function Save(theme)
-{
-    var Request = new XMLHttpRequest();
+
+function Save(theme) {
+    const Request = new XMLHttpRequest();
     Request.open("GET", "./themes.php?theme=" + theme, true); //У вас путь может отличаться
     Request.send();
 }
 
-function refreshPage(){
-    window.location.reload();
-}
+btn.checked = currTheme === lightTheme;
 
-function ChangeTheme()
-{
-    let lightTheme = "styles/light.css";
-    let darkTheme = "styles/dark.css";
-
-    var currTheme = link.getAttribute("href");
-    var theme = "";
-
-    if(currTheme == lightTheme)
-    {
-   	 currTheme = darkTheme;
-   	 theme = "dark";
-    }
-    else
-    {    
-   	 currTheme = lightTheme;
-   	 theme = "light";
-    }
-
+btn.onclick = () => {
+    currTheme = currTheme === lightTheme ? darkTheme : lightTheme;
     link.setAttribute("href", currTheme);
-
-    Save(theme);
-    refreshPage();
+    Save(currTheme === lightTheme ? "light" : "dark");
+    window.location.reload();
 }

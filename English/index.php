@@ -19,19 +19,13 @@ if(!isset($_SESSION["theme"]))
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" type="text/css" href="styles/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
 <link rel="stylesheet" href="/styles/button.css">
-<script type="text/javascript" src="scripts/theme_change.js"></script>
+<script type="text/javascript" src="scripts/theme_change.js" defer></script>
 
 </head>
 <body>
 
-<label class="checkbox-ios">
-<?php echo $_SESSION["theme"] == "dark"; ?>
-	<input type="checkbox" onclick="ChangeTheme()">
-	<span class="checkbox-ios-switch"></span>
-</label>
 
-<div class="theme-button" id="theme-button" onclick="ChangeTheme()">Change theme</div>
-
+<!-- <div class="theme-button" id="theme-button" onclick="ChangeTheme()">Change theme</div> -->
 
 <div class="container">
 <img class="icon" src="images/icon_<?php echo $_SESSION["theme"]; ?>.png"></img>
@@ -50,7 +44,18 @@ if(!isset($_SESSION["theme"]))
       </span>
     </span>
   </button>
+  </div> 
   <br/>
+
+
+  <div class="switcher">
+  <img class="switch_img1" src="images/night.png"></img>
+<label class="checkbox-ios">
+  <input type="checkbox" id="theme-button">
+	<span class="checkbox-ios-switch"></span>
+</label>
+<img class="switch_img2" src="images/day4.png"></img>
+</div>
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>

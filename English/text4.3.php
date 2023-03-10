@@ -13,12 +13,12 @@ if(!isset($_SESSION["theme"]))
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Text 7</title>
+<title>Text 3</title>
+<link rel="shortcut icon" href="/images/minicon.png">
 <link rel="stylesheet" href="/styles/text.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">
 <link rel="stylesheet" type="text/css" href="styles/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
-<link rel="shortcut icon" href="/images/minicon.png">
 
 </head>
 <body>
@@ -28,31 +28,35 @@ if(!isset($_SESSION["theme"]))
   <img class="icon" src="images/icon_<?php echo $_SESSION["theme"]; ?>.png" onclick="document.location='index.php'"></img>
 </div>
 
-<h1 class="name">INTEL PROCESSORS, THE HISTORY</h1>
+<h1 class="name">UNIX</h1>
 
 <div class="text">
-<p>Intel was one of the pioneering Microprocessor manufacturers when it created
-the 4004 processor in 1971. This was followed by the 8080 processor in the late 70's,
-which was developed into the 8086 and 8088 processors in 1979. It was only when,
-in 1981 IBM selected the 8086 processor for its new Personal Computer, the IBM
-PC, did the Intel processor design gain its opportunity to be used widely. 
+<p>Despite the lack of unification, the number of UNIX systems continues to grow.
+As of the mid 1990s, UNIX runs on an estimated five million computers throughout
+the world. Versions of UNIX ran on nearly every computer in existence, from small
+IBМ PCs to large supercomputers such as Crays. Because it is so easily adapted to
+new kinds of computers, UNIX is the operating system of choice for many of today's
+high-performance microprocessors. Because a set of versions of the operating
+system's source code is readily available to educational institutions, UNIX has also
+become the operating system of choice for educational computing at many
+universities and colleges. It is also popular in the research community because
+computer scientists like the ability to modify the tools they use to suit their own
+needs.
+<p>UNIX has become popular too, in the business community. In large part this
+popularity is because of the increasing numbers of people who have studied
+computing using a UNIX system, and who have sought to use UNIX in their business
+applications. Users who become familiar with UNIX tend to become very attached to
+the openness and flexibility of the system. The client-server model of computing has
+also become quite popular in business environments, and UNIX systems support this
+paradigm well (and there have not been too many other choices). 
 
-<p>The Intel 8086/8088 range of processors were based upon Complex Instruction
-Set Computing (CISC) which allows the number of bytes per instruction to vary
-according to the instruction being processed. This is unlike Reduced Instruction Set
-Computing (RISC) which has fixed length instructions (typically set at 32 bits each).
-The architecture pioneered by Intel has become known as «x86» due to the early
-naming system where processors were called 8086, 80186 (not used in PC's), 80286,
-80386, and 80486. 
-
-<p>In 1982 Intel introduced the 80286 (or 286) processor. This featured significant
-enhancements over the 8086/8088 line, mainly by introducing protected mode and
-the ability to address up to 16 megabytes of memory. 
+<p>Unix vendors and users are the leaders of the «open systems» movement:
+without UNIX the very concept of open systems would probably not exist.
 
 </div>
 <div class="btns">
 <div class="button_prev">
-    <button class="blob-btn" onclick="document.location='text1.6.php'">
+    <button class="blob-btn" onclick="document.location='text4.2.php'">
         previous text
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -67,7 +71,7 @@ the ability to address up to 16 megabytes of memory.
     </div>
 
     <div class="button_unit">
-    <button class="blob-btn" onclick="document.location='unit1.php'">
+    <button class="blob-btn" onclick="document.location='unit4.php'">
         go to unit
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -81,11 +85,11 @@ the ability to address up to 16 megabytes of memory.
     <br/>
     </div>
 
-<div class="button_next">
-    <button class="blob-btn" onclick="document.location='unit2.php'">
-        next unit
-    <span class="blob-btn__inner">
-    <span class="blob-btn__blobs">
+    <div class="button_next">
+    <button class="blob-btn" onclick="document.location='text4.4.php'">
+        next text
+        <span class="blob-btn__inner">
+        <span class="blob-btn__blobs">
             <span class="blob-btn__blob"></span>
             <span class="blob-btn__blob"></span>
             <span class="blob-btn__blob"></span>
@@ -95,7 +99,6 @@ the ability to address up to 16 megabytes of memory.
     </button>
     <br/>
     </div>
-
 </div>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>

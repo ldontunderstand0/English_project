@@ -32,7 +32,7 @@ if(!isset($_SESSION["theme"]))
 
 <div class="container">
     <div class="buttons">
-    <button class="blob-btn" onclick="document.location='text1.1.php'">
+    <button class="blob-btn" onclick="document.location='text4.1.php'">
         go
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -50,7 +50,7 @@ if(!isset($_SESSION["theme"]))
 
 <div class="container">
     <div class="buttons">
-    <button class="blob-btn" onclick="document.location='text2.1.php'">
+    <button class="blob-btn" onclick="document.location='text4.2.php'">
         go
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -69,7 +69,7 @@ if(!isset($_SESSION["theme"]))
 <div class="container">
     
     <div class="buttons">
-    <button class="blob-btn" onclick="document.location='text1.3.php'">
+    <button class="blob-btn" onclick="document.location='text4.3.php'">
         go
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -88,7 +88,7 @@ if(!isset($_SESSION["theme"]))
 <div class="container">
     
     <div class="buttons">
-    <button class="blob-btn" onclick="document.location='text1.4.php'">
+    <button class="blob-btn" onclick="document.location='text4.4.php'">
         go
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -107,7 +107,7 @@ if(!isset($_SESSION["theme"]))
 <div class="container">
     
     <div class="buttons">
-    <button class="blob-btn" onclick="document.location='unit1.php'">
+    <button class="blob-btn" onclick="document.location='text4.5.php'">
         go
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -126,7 +126,7 @@ if(!isset($_SESSION["theme"]))
 <div class="container">
     
     <div class="buttons">
-    <button class="blob-btn" onclick="document.location='unit1.php'">
+    <button class="blob-btn" onclick="document.location='text4.6.php'">
         go
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">

@@ -13,7 +13,7 @@ if(!isset($_SESSION["theme"]))
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Text 9</title>
+<title></title>
 <link rel="stylesheet" href="/styles/text.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">
@@ -28,41 +28,37 @@ if(!isset($_SESSION["theme"]))
   <img class="icon" src="images/icon_<?php echo $_SESSION["theme"]; ?>.png" onclick="document.location='index.php'"></img>
 </div>
 
-<h1 class="name">KEY PROPERTIES OF THE INTERNET</h1>
+<h1 class="name">FAIL-RESISTANT COMPUTER</h1>
 
 <div class="text">
-<p>The Internet has several key properties that make it exceedingly hard to
-characterize, and thus to simulate. First, its great success has come in large part
-because the main function of the Internet Protocol (IP) architecture is to unify diverse
-networking technologies and administrative domains. IP allows vastly different
-networks administered by vastly different policies to seamlessly interoperate.
-However, the fact that IP masks these differences from a user's perspective does not
-make them go away IP buys uniform connectivity in the face of diversity, but not
-uniform behavior. Indeed, the greater IP's success at unifying diverse networks, the
-harder the problem of understanding how a large IP network behaves. 
-
-<p>A second key property is that the Internet is big It included an estimated 998
-million computers at the end of 2000. Its size brings with it two difficulties. The first
-is that the range of heterogeneity mentioned above is very large if only a small
-fraction of the computers behave in an atypical fashion, the Internet still might
-include thousands of such computers, often too many to dismiss as negligible. 
-<p>Size also brings with it the crucial problem of scaling many networking
-protocols and mechanisms work fine for small networks of tens or hundreds of
-computers, or even perhaps «large» networks of tens of thousands of computers, yet
-become impractical when the network is again three orders of magnitude larger
-(today's Internet), much less five orders of magnitude (the coming decade's Internet).
-Large scale means that rare events will routinely occur in some part of the network,
-and, furthermore, that reliance on human intervention to maintain critical network
-properties such as stability becomes a recipe for disaster
-<p> A third key property is that the Internet changes in drastic ways over time. For
-example, we mentioned above that in Dec. 2000, the network included 100 million
-computers But in Jan.1997, four years earlier, it comprised only 16 million
-computers, reflecting growth of about 60% year. This growth then begs the question:
-how big will it be in two more years? 5 years? 
+<p>The March issue of Computer ignores some of the leading developments of
+industry in the field of fault-tolerance. A company called Tandem manufactures a
+«non-stop», parallel processing computer system. The only indirect reference to it in
+the March issue is contained in Al Hopkins' article: «With certain exceptions, vendors
+do not offer fault-tolerant computers and systems as off-the-shelf items». 
+<p>Computer's omission is not unique. I specialized in fault-tolerance and received
+a master's degree in computer science from Carnegie-Mellon University, where
+several fault-tolerant multiprocessors were built. Yet until I left the university and
+entered the job market, I had never heard of Tandem computers. I have now been
+programming them for two years; let me give your readers some background
+information gleaned from Tandem's manuals and discussions with Tandem
+employees. 
+<p>The company was started in the early 70's by disgruntled Hewlett-Packard users
+who realized how difficult it would be to make their system fault-tolerant. The
+founders commissioned marketing studies which determined that there was a demand
+for fault-tolerant computing in commercial applications, like banking, securities
+transfer, and online data bases. A commercially oriented architecture was designed,
+with dual redundancy providing the fault tolerance. Tandem's basic claim is that no
+one failure can bring the system down; processors, I/O ports, buses, and power
+supplies are at least dual and a single failure should not halt the system. 
+<p>For a program to run non-stop, it must execute on two distinct processors. The
+program must be designed to checkpoint vital information from the primary processor
+to the backup processor at certain points. The checkpointing software is provided by
+Tandem, but the user must decide what needs to be checkpointed, and when. 
 </div>
 <div class="btns">
 <div class="button_prev">
-    <button class="blob-btn" onclick="document.location='text2.8.php'">
+    <button class="blob-btn" onclick="document.location='text3.7.php'">
         previous text
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -77,7 +73,7 @@ how big will it be in two more years? 5 years?
     </div>
 
     <div class="button_unit">
-    <button class="blob-btn" onclick="document.location='unit2.php'">
+    <button class="blob-btn" onclick="document.location='unit3.php'">
         go to unit
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -92,7 +88,7 @@ how big will it be in two more years? 5 years?
     </div>
 
 <div class="button_next">
-    <button class="blob-btn" onclick="document.location='unit3.php'">
+    <button class="blob-btn" onclick="document.location='unit4.php'">
         next unit
     <span class="blob-btn__inner">
     <span class="blob-btn__blobs">

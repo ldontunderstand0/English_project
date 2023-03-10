@@ -13,7 +13,7 @@ if(!isset($_SESSION["theme"]))
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Text 9</title>
+<title>Text 4</title>
 <link rel="stylesheet" href="/styles/text.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">
@@ -28,41 +28,41 @@ if(!isset($_SESSION["theme"]))
   <img class="icon" src="images/icon_<?php echo $_SESSION["theme"]; ?>.png" onclick="document.location='index.php'"></img>
 </div>
 
-<h1 class="name">KEY PROPERTIES OF THE INTERNET</h1>
+<h1 class="name">CANVAS OF INVENTION</h1>
 
 <div class="text">
-<p>The Internet has several key properties that make it exceedingly hard to
-characterize, and thus to simulate. First, its great success has come in large part
-because the main function of the Internet Protocol (IP) architecture is to unify diverse
-networking technologies and administrative domains. IP allows vastly different
-networks administered by vastly different policies to seamlessly interoperate.
-However, the fact that IP masks these differences from a user's perspective does not
-make them go away IP buys uniform connectivity in the face of diversity, but not
-uniform behavior. Indeed, the greater IP's success at unifying diverse networks, the
-harder the problem of understanding how a large IP network behaves. 
+<p>It may sound odd to describe computers as providing grand scope for creative
+activities: Aren’t they monotonous, dull, unintelligent, and extremely limited? Yes,
+they are. However, they have redeeming virtues that make them ideal as the canvas of
+invention: they are extraordinarily fast and spectacularly reliable. These
+characteristics allow the creator of a program to weave intricate chains of thought and
+have a fantastic number of steps carried out without fail. 
+<p>The most impressive attribute of modern computers, of course, is their speed; as
+we have already seen, this is measured in MIPS (millions of instructions per second). 
 
-<p>A second key property is that the Internet is big It included an estimated 998
-million computers at the end of 2000. Its size brings with it two difficulties. The first
-is that the range of heterogeneity mentioned above is very large if only a small
-fraction of the computers behave in an atypical fashion, the Internet still might
-include thousands of such computers, often too many to dismiss as negligible. 
-<p>Size also brings with it the crucial problem of scaling many networking
-protocols and mechanisms work fine for small networks of tens or hundreds of
-computers, or even perhaps «large» networks of tens of thousands of computers, yet
-become impractical when the network is again three orders of magnitude larger
-(today's Internet), much less five orders of magnitude (the coming decade's Internet).
-Large scale means that rare events will routinely occur in some part of the network,
-and, furthermore, that reliance on human intervention to maintain critical network
-properties such as stability becomes a recipe for disaster
-<p> A third key property is that the Internet changes in drastic ways over time. For
-example, we mentioned above that in Dec. 2000, the network included 100 million
-computers But in Jan.1997, four years earlier, it comprised only 16 million
-computers, reflecting growth of about 60% year. This growth then begs the question:
-how big will it be in two more years? 5 years? 
+<p>Of course, raw speed is not very valuable if we can't rely on the results we get.
+ENIAC, one of the first electronic computers, had a failure every few hours, on the
+average; since the problems it was solving took about that long to run, the likelihood
+that the results were correct wasn't very high. Particularly critical calculations were
+often ran several times, and if the users got the same answer twice, they figured it
+was probably correct. By contrast, modern computers are almost incomprehensibly
+reliable. With almost any other machine, a failure rate of one in every million
+operations would be considered phenomenally low, but a computer with such a
+failure rate would make thousands of errors per second. 
+<p>On the other hand, if computers are so reliable, why are they blamed for so
+much that goes wrong with modern life? Who among us has not been the victim of an
+erroneous credit report, or a bill sent to the wrong address, or been put on hold for a
+long time because «the computer is down»? The answer is fairly simple: It's almost
+certainly not the computer. More precisely, it's very unlikely that the CPU was at
+fault; it may be the software, other equipment such as telephone lines, tape or disk
+drives, or any of the myriad «peripheral devices» that the computer uses to store and
+retrieve information and interact with the outside world. Usually, it's the software;
+when customer service representatives tell you that they can't do something obviously
+reasonable, you can count on its being the software. 
 </div>
 <div class="btns">
 <div class="button_prev">
-    <button class="blob-btn" onclick="document.location='text2.8.php'">
+    <button class="blob-btn" onclick="document.location='text3.3.php'">
         previous text
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -77,7 +77,7 @@ how big will it be in two more years? 5 years?
     </div>
 
     <div class="button_unit">
-    <button class="blob-btn" onclick="document.location='unit2.php'">
+    <button class="blob-btn" onclick="document.location='unit3.php'">
         go to unit
         <span class="blob-btn__inner">
         <span class="blob-btn__blobs">
@@ -92,8 +92,8 @@ how big will it be in two more years? 5 years?
     </div>
 
 <div class="button_next">
-    <button class="blob-btn" onclick="document.location='unit3.php'">
-        next unit
+    <button class="blob-btn" onclick="document.location='text3.5.php'">
+        next text
     <span class="blob-btn__inner">
     <span class="blob-btn__blobs">
             <span class="blob-btn__blob"></span>

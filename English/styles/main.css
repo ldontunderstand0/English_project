@@ -3,6 +3,23 @@ body {
   "Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+.switch_img1 {
+	width: 7%;
+  	height: 7%;
+	  vertical-align: middle;
+	margin-bottom: 1.5%;
+}
+.switch_img2 {
+	width: 6%;
+  	height: 6%;
+	  vertical-align: middle;
+	margin-bottom: 1%;
+}
+
+.switcher {
+	margin-left: 44%;
+}
+
 .container {
   align-content: center;
   margin-left: 0%;
@@ -28,6 +45,7 @@ body {
   border-radius: 30px;
 }
 .checkbox-ios {
+	margin-top: -2%;
 	display: inline-block;    
 	height: 28px;    
 	line-height: 28px;  
@@ -45,8 +63,8 @@ body {
 	height: 28px;
 	border: 1px solid rgba(0, 0, 0, .1);
 	border-radius: 25%/50%;	
-	vertical-align: top;
-	background: #eee;
+	vertical-align: middle;
+	background: #E8A236;
 	transition: .2s;
 }
 .checkbox-ios .checkbox-ios-switch:before {
@@ -74,7 +92,7 @@ body {
 	box-shadow: inset 0 0 2px rgba(0, 0, 0, .3);
 }
 .checkbox-ios input[type=checkbox]:checked + .checkbox-ios-switch {
-	background: limegreen;
+	background: #090DC4;
 }
 .checkbox-ios input[type=checkbox]:checked + .checkbox-ios-switch:before {
 	transform:translateX(28px);

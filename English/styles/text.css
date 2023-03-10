@@ -40,4 +40,7 @@ body {
 }
 .blob-btn {
     width: 221px;
-  }
+}
+.head {
+    text-align: center;
+}
