@@ -24,11 +24,17 @@ if(!isset($_SESSION["theme"]))
 </head>
 <body>
 
+<label class="checkbox-ios">
+<?php echo $_SESSION["theme"] == "dark"; ?>
+	<input type="checkbox" onclick="ChangeTheme()">
+	<span class="checkbox-ios-switch"></span>
+</label>
+
 <div class="theme-button" id="theme-button" onclick="ChangeTheme()">Change theme</div>
 
 
 <div class="container">
-<img class="icon" src="images/icon.png"></img>
+<img class="icon" src="images/icon_<?php echo $_SESSION["theme"]; ?>.png"></img>
 <h1 class="main_text">History of the first PCs</h1>
 </div> 
 

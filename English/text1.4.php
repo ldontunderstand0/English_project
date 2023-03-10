@@ -13,7 +13,7 @@ if(!isset($_SESSION["theme"]))
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
+<title>Text 4</title>
 <link rel="stylesheet" href="/styles/text.css">
 <link rel="stylesheet" href="/styles/button.css">
 <link rel="stylesheet" href="/styles/navigation.css">
@@ -24,8 +24,8 @@ if(!isset($_SESSION["theme"]))
 <body>
 
 <div class="navigate">
-  <img class="menu" src="images/menu.png" onclick="document.location='content.php'"></img>
-  <img class="icon" src="images/icon.png" onclick="document.location='index.php'"></img>
+  <img class="menu" src="images/menu_<?php echo $_SESSION["theme"]; ?>.png" onclick="document.location='content.php'"></img>
+  <img class="icon" src="images/icon_<?php echo $_SESSION["theme"]; ?>.png" onclick="document.location='index.php'"></img>
 </div>
 
 <h1 class="name">HOWARD H. AIKEN AND THE COMPUTER</h1>

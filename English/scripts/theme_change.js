@@ -10,6 +10,10 @@ function Save(theme)
     Request.send();
 }
 
+function refreshPage(){
+    window.location.reload();
+}
+
 function ChangeTheme()
 {
     let lightTheme = "styles/light.css";
@@ -32,4 +36,5 @@ function ChangeTheme()
     link.setAttribute("href", currTheme);
 
     Save(theme);
+    refreshPage();
 }
