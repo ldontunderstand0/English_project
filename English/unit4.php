@@ -31,6 +31,7 @@ if(!isset($_SESSION["theme"]))
 <h1 class="main_text">Unit 4</h1> 
 
 <div class="container">
+<h1 class="header">OPERATING SYSTEMS</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text4.1.php'">
         go
@@ -45,10 +46,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">OPERATING SYSTEMS</h1>
+    
 </div>
 
 <div class="container">
+<h1 class="header">WINDOWS 98</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text4.2.php'">
         go
@@ -63,11 +65,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">WINDOWS 98</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">UNIX</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text4.3.php'">
         go
@@ -82,11 +84,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">UNIX</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">SECURITY AND UNIX</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text4.4.php'">
         go
@@ -101,11 +103,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">SECURITY AND UNIX</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">UNIX'S LITTLE BROTHER</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text4.5.php'">
         go
@@ -120,11 +122,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">UNIX'S LITTLE BROTHER</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">WHAT IS AN OPERATING SYSTEM?</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text4.6.php'">
         go
@@ -139,7 +141,7 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">WHAT IS AN OPERATING SYSTEM?</h1>
+    
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">

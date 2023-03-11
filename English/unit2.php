@@ -31,6 +31,7 @@ if(!isset($_SESSION["theme"]))
 <h1 class="main_text">Unit 2</h1> 
 
 <div class="container">
+<h1 class="header">WHAT IS THE INTERNET</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.1.php'">
         go
@@ -45,10 +46,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">WHAT IS THE INTERNET</h1>
+    
 </div>
 
 <div class="container">
+<h1 class="header">CONNECTING TO THE NETWORK</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.2.php'">
         go
@@ -63,11 +65,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">CONNECTING TO THE NETWORK</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">PUBLIC-ACCESS INTERNET SITES</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.3.php'">
         go
@@ -82,11 +84,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">PUBLIC-ACCESS INTERNET SITES</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">NETWORK SIMULATION</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.4.php'">
         go
@@ -101,11 +103,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">NETWORK SIMULATION</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">MODEMS</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.5.php'">
         go
@@ -120,11 +122,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">MODEMS</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">WHAT IS NETWORKING?</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.6.php'">
         go
@@ -139,11 +141,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">WHAT IS NETWORKING?</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header"> NEW CHALLENGES FOR INFORMATION RETRIEVAL</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.7.php'">
         go
@@ -158,11 +160,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header"> NEW CHALLENGES FOR INFORMATION RETRIEVAL</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">SEARCH ENGINE AND ITS IMPROVMENT</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.8.php'">
         go
@@ -177,11 +179,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">SEARCH ENGINE AND ITS IMPROVMENT</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">KEY PROPERTIES OF THE INTERNET</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text2.9.php'">
         go
@@ -196,7 +198,7 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">KEY PROPERTIES OF THE INTERNET</h1>
+    
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">

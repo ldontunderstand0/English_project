@@ -32,6 +32,7 @@ if(!isset($_SESSION["theme"]))
 <h1 class="main_text">Unit 1</h1> 
 
 <div class="container">
+<h1 class="header">HISTORY</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text1.1.php'">
         go
@@ -46,10 +47,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">HISTORY</h1>
+    
 </div>
 
 <div class="container">
+<h1 class="header">FROM ELECTROMECHANICAL TO ELECTRONIC COMPUTERS: AIKEN TO ENIAC</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text1.2.php'">
         go
@@ -64,11 +66,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">FROM ELECTROMECHANICAL TO ELECTRONIC COMPUTERS: AIKEN TO ENIAC</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">FROM UNIVAC TO PC</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text1.3.php'">
         go
@@ -83,11 +85,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">FROM UNIVAC TO PC</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">HOWARD H. AIKEN AND THE COMPUTER</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text1.4.php'">
         go
@@ -102,11 +104,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">HOWARD H. AIKEN AND THE COMPUTER</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">THE DEVELOPMENT OF COMPUTERS IN THE USA</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text1.5.php'">
         go
@@ -121,11 +123,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">THE DEVELOPMENT OF COMPUTERS IN THE USA</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">TOP 20 COMPUTER SYSTEMS</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text1.6.php'">
         go
@@ -140,11 +142,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">TOP 20 COMPUTER SYSTEMS</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">INTEL PROCESSORS, THE HISTORY</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text1.7.php'">
         go
@@ -159,7 +161,7 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">INTEL PROCESSORS, THE HISTORY</h1>
+    
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">

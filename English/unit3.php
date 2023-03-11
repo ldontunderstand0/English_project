@@ -31,6 +31,7 @@ if(!isset($_SESSION["theme"]))
 <h1 class="main_text">Unit 3</h1> 
 
 <div class="container">
+<h1 class="header">PROGRAMMING LANGUAGES</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.1.php'">
         go
@@ -45,10 +46,10 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">PROGRAMMING LANGUAGES</h1>
 </div>
 
 <div class="container">
+<h1 class="header">JAVA</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.2.php'">
         go
@@ -63,11 +64,10 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">JAVA</h1>
 </div>
 
 <div class="container">
-    
+<h1 class="header">THE MAIN COMPONENTS OF THE COMPUTER</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.3.php'">
         go
@@ -82,11 +82,10 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">THE MAIN COMPONENTS OF THE COMPUTER</h1>
 </div>
 
 <div class="container">
-    
+<h1 class="header">CANVAS OF INVENTION</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.4.php'">
         go
@@ -101,11 +100,10 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">CANVAS OF INVENTION</h1>
 </div>
 
 <div class="container">
-    
+<h1 class="header">SDL</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.5.php'">
         go
@@ -120,11 +118,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">SDL</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">DIAGRAMS</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.6.php'">
         go
@@ -139,11 +137,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">DIAGRAMS</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">SOFTWARE IMPLEMENTATION</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.7.php'">
         go
@@ -158,11 +156,11 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">SOFTWARE IMPLEMENTATION</h1>
+    
 </div>
 
 <div class="container">
-    
+<h1 class="header">FAIL-RESISTANT COMPUTER</h1>
     <div class="buttons">
     <button class="blob-btn" onclick="document.location='text3.8.php'">
         go
@@ -177,7 +175,7 @@ if(!isset($_SESSION["theme"]))
     </button>
     <br/>
     </div>
-    <h1 class="header">FAIL-RESISTANT COMPUTER</h1>
+    
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
